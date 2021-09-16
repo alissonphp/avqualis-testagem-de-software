@@ -1,0 +1,71 @@
+1631834871518	geckodriver	INFO	Listening on 127.0.0.1:51607
+1631834872524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXArx3Z"
+
+(firefox:46651): Gtk-WARNING **: 20:27:52.555: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1631834874138	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXArx3Z/search.json.mozlz4", (void 0)))
+1631834875231	Marionette	INFO	Listening on port 33741
+1631834875345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1631834879772	Marionette	INFO	Stopped listening on port 33741
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631835011499	geckodriver	INFO	Listening on 127.0.0.1:53243
+1631835011505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile8tUogK"
+
+(firefox:48628): Gtk-WARNING **: 20:30:11.529: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1631835013093	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8tUogK/search.json.mozlz4", (void 0)))
+1631835014044	Marionette	INFO	Listening on port 39135
+1631835014126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631835606431	geckodriver	INFO	Listening on 127.0.0.1:36231
+1631835606437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileS7qTki"
+*** You are running in headless mode.
+
+(firefox:56341): Gtk-WARNING **: 20:40:06.465: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1631835607939	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS7qTki/search.json.mozlz4", (void 0)))
+1631835608993	Marionette	INFO	Listening on port 37797
+1631835609057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631835789584	Marionette	INFO	Stopped listening on port 37797
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631835901447	geckodriver	INFO	Listening on 127.0.0.1:41013
+1631835901453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiley6g482"
+
+(firefox:60245): Gtk-WARNING **: 20:45:01.479: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1631835903078	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley6g482/search.json.mozlz4", (void 0)))
+1631835904253	Marionette	INFO	Listening on port 43837
+1631835904278	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631836084927	Marionette	INFO	Stopped listening on port 43837
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631836140634	geckodriver	INFO	Listening on 127.0.0.1:56033
+1631836140641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilepFdTYe"
+
+(firefox:63554): Gtk-WARNING **: 20:49:00.671: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1631836142283	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepFdTYe/search.json.mozlz4", (void 0)))
+1631836143806	Marionette	INFO	Listening on port 38203
+1631836143865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1631836274905	Marionette	INFO	Stopped listening on port 38203
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1631836274941	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

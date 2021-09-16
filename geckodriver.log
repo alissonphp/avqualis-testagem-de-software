@@ -1,0 +1,13 @@
+1631831218261	geckodriver	INFO	Listening on 127.0.0.1:49483
+1631831218272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileW87skI"
+
+(firefox:168476): Gtk-WARNING **: 19:26:58.339: Locale not supported by C library.
+	Using the fallback 'C' locale.
+1631831219912	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW87skI/search.json.mozlz4", (void 0)))
+1631831221713	Marionette	INFO	Listening on port 44087
+1631831221800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1631831226359	Marionette	INFO	Stopped listening on port 44087
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
